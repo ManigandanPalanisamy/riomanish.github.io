@@ -9,20 +9,13 @@ h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
 p {margin: 0;}
 html, body{
- font-family: 'PT-Sans-Italic';
+ font-family: 'PT-Sans-Normal';
    font-size: 100%;
    background:#fff; 
    padding:0;margin:0;
 
 }
-@font-face {
-    font-family: 'MarkoOne-Regular';
-    src:url(../fonts/MarkoOne-Regular.ttf) format('truetype');
-}
-@font-face {
-    font-family:  'PT-Sans-Italic';
-    src:url(../fonts/PT-Sans-Italic.ttf) format('truetype');
-}
+
 a {
   text-decoration: none;
 }
@@ -216,11 +209,14 @@ span.menu {
 .weare-main p {
   color: #999;
   font-size: 1.1em;
-  font-style: italic;
+margin: 1em auto 0em;
   line-height: 1.8em;
-  margin: 1em auto 0em;
   width: 80%;
 }
+.we{
+	color:#999;
+}
+
 .weare {
 	padding:6em 0em 6em 0em;
 }
